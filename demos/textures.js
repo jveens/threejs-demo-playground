@@ -25,7 +25,7 @@ window.onload = function() {
     // Load our texture
     var textureLoader = new THREE.TextureLoader();
     textureLoader.crossOrigin = true;
-    textureLoader.load('./assets/texture-basket.jpg', function(texture) {
+    textureLoader.load('./assets/texture-cracks.jpg', function(texture) {
 
         // apply the texture as a bump map
         var material = new THREE.MeshStandardMaterial({
